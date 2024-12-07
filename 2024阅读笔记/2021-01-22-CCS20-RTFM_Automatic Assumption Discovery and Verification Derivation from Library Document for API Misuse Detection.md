@@ -1,17 +1,5 @@
-
 # RTFM! Automatic Assumption Discovery and Verification Derivation from Library Document for API Misuse Detection
 
-
-
----
-layout: post
-title: "Watching You Watch: The Tracking Ecosystem of Over-the-Top TV Streaming Devices"
-date: 2020-01-03 01:30:57 -0500
-comments: true
-categories: 
----
-
------
 >作者：Tao Lv, Ruishi Li, Yi Yang, **Kai Chen**, Xiaojing Liao, XiaoFeng Wang, Peiwei Hu, Luyi Xing
 >
 >单位： Chinese Academy of Sciences，Indiana University Bloomington
@@ -20,6 +8,11 @@ categories:
 >
 >论文链接： [RTFM! Automatic Assumption Discovery and Verification Derivation from Library Document for API Misuse Detection](http://kaichen.org/paper/conference/Advance_CCS_2020_camera-ready.pdf)
 
+|Recorder|Date|Categories|
+|----|----|----|
+|-|2021-01-22|AI Empowered, API Misuse|
+
+-----
 
 ## Abstract
 
