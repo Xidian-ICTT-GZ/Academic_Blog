@@ -1,5 +1,7 @@
 # Controlled Concurrency Testing via Periodical Scheduling
 
+>PERIOD：受控并发测试
+>
 >作者：Cheng Wen, Mengda He, Bohao Wu, Zhiwu Xu and Shengchao Qin
 >
 >单位：Shenzhen University, Huawei
@@ -10,7 +12,7 @@
 
 |Recorder|Date|Categories|
 |----|----|----|
-|黄俊杰|2022-11-22|Testing, Concurrency Program|
+|黄俊杰|2024-11-22|Testing, Concurrency Program|
 
 -----
 

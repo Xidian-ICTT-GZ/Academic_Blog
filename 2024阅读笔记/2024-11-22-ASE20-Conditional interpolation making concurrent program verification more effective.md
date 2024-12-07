@@ -1,5 +1,7 @@
 ﻿# Conditional interpolation: making concurrent program verification more effective
 
+>条件插值：让并发程序验证更高效
+> 
 >作者：Jie Su, Cong Tian, Zhenhua Duan
 >
 >单位： Xidian University
@@ -10,7 +12,7 @@
 
 |Recorder|Date|Categories|
 |----|----|----|
-|周润博|2021-01-22|Model Checking, Concurrency Program|
+|周润博|2024-11-22|Model Checking, Concurrency Program|
 
 ## **一、背景**
 ### **1.背景**
