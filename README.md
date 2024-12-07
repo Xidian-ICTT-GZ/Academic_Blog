@@ -15,8 +15,9 @@
 
 程序验证，作为确保软件质量与安全的核心环节，广义上的概念就是根据既定的标准（又被称之为规范--Specification），对被检查事物（通常是程序--Program），进行严谨的属性审查与确认的过程。程序验证的主要输入是规范和程序，下图描述了一个基本的程序验证过程。这一过程不仅仰赖于计算资源的支持，更离不开工程师的智慧投入。
 
-<div align=center><img src="/images/top/verification_process.png" width="50%"></div>
-
+<div align=center>
+    <img src="/images/top/verification_process.png" width="65%">
+</div>
 
 **程序--Program**：作为验证活动的核心对象，其形态万千，不仅涵盖了C/C++、Java、Rust等传统或新兴编程语言编写的软件，还延伸至多线程程序、中断驱动系统、智能合约、深度神经网络，乃至硬件设计、并行与分布式软件，以及协议、进程演算、自动机、物理信息融合系统等更为抽象的计算模型。
 
@@ -28,7 +29,9 @@
 
 为了直观地理解这一挑战，我们可以将验证方法的特性构想为一个三棱金字塔模型（从顶部俯瞰），如下图所示。金字塔的三个底边分别代表了自动性（Automatic）、无遗漏错误（No Missed Bugs，即完全正确性）和无误报（No False Alarms,即精确性）这三个核心属性。金字塔的顶点，则是我们梦寐以求的理想验证系统，它集自动性、完全正确性和精确性于一身。
 
-<div align=center><img src="/images/top/pyramid.png" width="75%"></div>
+<div align=center>
+    <img src="/images/top/pyramid.png" width="75%">
+</div>
 
 金字塔的底面，则分布着三种不同的策略，它们分别对应着三个属性的极端表现：
 - 上近似（Over-approximation）：这种方法倾向于保守地估计程序的行为，可能会误报一些实际上符合规范的情况，以确保不遗漏任何潜在的错误。它牺牲了精确性以换取完全正确性。
@@ -48,8 +51,7 @@
 - Deductive Verification：演绎验证基于逻辑证明，从公理出发逐步推导出系统满足特定性质的结论。
 - Functional Verification：功能验证关注于验证软件功能是否符合预期，通常结合形式化规格说明。
 
-<div align=center><img src="/images/top/six_school.png" width="75%"></div>
-
+![Alt](/images/top/six_school.png#pic_center)
 
 ### 四、每月简报
 
