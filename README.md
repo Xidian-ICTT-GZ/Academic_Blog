@@ -15,8 +15,7 @@
 
 程序验证，作为确保软件质量与安全的核心环节，广义上的概念就是根据既定的标准（又被称之为规范--Specification），对被检查事物（通常是程序--Program），进行严谨的属性审查与确认的过程。程序验证的主要输入是规范和程序，下图描述了一个基本的程序验证过程。这一过程不仅仰赖于计算资源的支持，更离不开工程师的智慧投入。
 
-
-<img src="/images/top/verification_process.png" width="65%">
+![Alt](/images/top/verification_process.png#pic_center)
 
 **程序--Program**：作为验证活动的核心对象，其形态万千，不仅涵盖了C/C++、Java、Rust等传统或新兴编程语言编写的软件，还延伸至多线程程序、中断驱动系统、智能合约、深度神经网络，乃至硬件设计、并行与分布式软件，以及协议、进程演算、自动机、物理信息融合系统等更为抽象的计算模型。
 
@@ -29,9 +28,7 @@
 为了直观地理解这一挑战，我们可以将验证方法的特性构想为一个三棱金字塔模型（从顶部俯瞰），如下图所示。金字塔的三个底边分别代表了自动性（Automatic）、无遗漏错误（No Missed Bugs，即完全正确性）和无误报（No False Alarms,即精确性）这三个核心属性。金字塔的顶点，则是我们梦寐以求的理想验证系统，它集自动性、完全正确性和精确性于一身。
 
 
-<center class ='img'>
-    <img src="/images/top/pyramid.png" width="75%">
-</center>
+![Alt](/images/top/pyramid.png#pic_center)
 
 金字塔的底面，则分布着三种不同的策略，它们分别对应着三个属性的极端表现：
 - 上近似（Over-approximation）：这种方法倾向于保守地估计程序的行为，可能会误报一些实际上符合规范的情况，以确保不遗漏任何潜在的错误。它牺牲了精确性以换取完全正确性。
@@ -62,6 +59,9 @@
 - 2024年08月简报
 
 ### 五、最新前沿论文分享
+
+#### 每周文献阅读：
+- [2021-01-22-CCS20-RTFM_Automatic Assumption Discovery and Verification Derivation from Library Document for API Misuse Detection](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2021-01-22-CCS20-RTFM_Automatic%20Assumption%20Discovery%20and%20Verification%20Derivation%20from%20Library%20Document%20for%20API%20Misuse%20Detection.md)
 
 #### FM‘24亮点文章：
 - “A Pyramid Of (Formal) Software Verification”综述了形式化验证的层次结构与挑战。
