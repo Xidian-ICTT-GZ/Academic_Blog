@@ -5,9 +5,9 @@
 
 在本文中提出一种有偏的随机搜索，利用reads-from信息来对交错分区进行划分。调度器利用reads-from对偏向新发现的分区。针对并发程序开发的并发中心灰盒模糊测试（RFF）并未枚举所有可能的交错或来自“reads-from”分区的事件，而是进行自适应的、随机化的搜索以减少分区空间。
 
-![image]([C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207100545044.png](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F.png))
+![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F.png)
 
-![image]([C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207165741404.png](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/reads-from%E5%AF%B9%E7%A4%BA%E4%BE%8B.png)
+![image]([https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/reads-from%E5%AF%B9%E7%A4%BA%E4%BE%8B.png)
 
 
 
