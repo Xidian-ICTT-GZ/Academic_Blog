@@ -65,6 +65,16 @@
 ### 五、最新前沿论文分享
 
 #### 每周文献阅读：
+- [2024-12-08-ASPLOS24-Greybox Fuzzing for Concurrency Testing](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-08-ASPLOS24-Greybox%20Fuzzing%20for%20Concurrency%20Testing.md)
+- [2024-12-05-POPL19-Incorrectness Logic](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-05-POPL19-Incorrectness%20Logic.pdf)
+- [2024-11-22-ICSE22-Controlled Concurrency Testing via Periodical Scheduling](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-11-22-ICSE22-Controlled%20Concurrency%20Testing%20via%20Periodical%20Scheduling.md)
+- [2024-11-22-FSE21-Conditional interpolation making concurrent program verification more effective](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-11-22-FSE21-Conditional%20interpolation%20making%20concurrent%20program%20verification%20more%20effective.md)
+- [2024-11-08-SEC24_Pruning Redundant Sanitizer Checks](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-11-08-SEC24_Pruning%20Redundant%20Sanitizer%20Checks.pdf)
+- [2024-11-08-SEC23_MTSan_A Feasible and Practical Memory Sanitizer for Fuzzing COTS Binaries](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-11-08-SEC23_MTSan_A%20Feasible%20and%20Practical%20Memory%20Sanitizer%20for%20Fuzzing%20COTS%20Binaries.pdf)
+- [2024-10-25-OSDI21_SANRAZOR Reducing Redundant Sanitizer Checks in CC++ Programs](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-10-25-OSDI21_SANRAZOR%20Reducing%20Redundant%20Sanitizer%20Checks%20in%20CC%2B%2B%20Programs.pdf)
+- [2024-10-25-ACT20_FuzzSan_Efficient Sanitizer Metadata Design for Fuzzing](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-10-25-ACT20_FuzzSan_Efficient%20Sanitizer%20Metadata%20Design%20for%20Fuzzing.pdf)
+- [2024-05-19-TKDD24-LLM4SA Automatically Inspecting Thousands of Static Bug Warnings with Large Language Model](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-05-19-TKDD24-LLM4SA%20Automatically%20Inspecting%20Thousands%20of%20Static%20Bug%20Warnings%20with%20Large%20Language%20Model.md)
+- [2024-05-19-ICSE24-RPG Rust Library Fuzzing with Pool-based Fuzz Target Generation and Generic Support](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-05-19-ICSE24-RPG%20Rust%20Library%20Fuzzing%20with%20Pool-based%20Fuzz%20Target%20Generation%20and%20Generic%20Support.md)
 - [2021-01-22-CCS20-RTFM_Automatic Assumption Discovery and Verification Derivation from Library Document for API Misuse Detection](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2021-01-22-CCS20-RTFM_Automatic%20Assumption%20Discovery%20and%20Verification%20Derivation%20from%20Library%20Document%20for%20API%20Misuse%20Detection.md)
 
 #### FM‘24亮点文章：
