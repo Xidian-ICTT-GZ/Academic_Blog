@@ -1,7 +1,6 @@
 ​									*Greybox Fuzzing for Concurrency Testing*
 
-[![image-20241208181823967](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241208181823967.png)](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/%E4%B9%90%E8%A7%82%E4%B8%8E%E6%82%B2%E8%A7%82%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95.png)
-
+![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/%E4%B9%90%E8%A7%82%E4%B8%8E%E6%82%B2%E8%A7%82%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95.png)
 
 
 在本文中提出一种有偏的随机搜索，利用reads-from信息来对交错分区进行划分。调度器利用reads-from对偏向新发现的分区。针对并发程序开发的并发中心灰盒模糊测试（RFF）并未枚举所有可能的交错或来自“reads-from”分区的事件，而是进行自适应的、随机化的搜索以减少分区空间。
