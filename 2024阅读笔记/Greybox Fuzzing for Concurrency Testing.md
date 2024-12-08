@@ -7,7 +7,7 @@
 
 ![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/%E7%A4%BA%E4%BE%8B%E7%A8%8B%E5%BA%8F.png)
 
-![image]([https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/reads-from%E5%AF%B9%E7%A4%BA%E4%BE%8B.png)
+![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/reads-from%E5%AF%B9%E7%A4%BA%E4%BE%8B.png)
 
 
 
