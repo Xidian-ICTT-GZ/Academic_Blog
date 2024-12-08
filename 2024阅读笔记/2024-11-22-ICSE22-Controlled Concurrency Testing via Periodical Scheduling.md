@@ -78,49 +78,53 @@
 
 接下来第二步就是通过周期执行来进行线程交错。比如上图中生成的调度{T0}{T1}，周期执行后如下图所示。
 
-![image-20241117182953638](/images/2024-11-22/aaa.png)
+<img width="582" alt="{T0}{T1}执行结果图" src="https://github.com/user-attachments/assets/2473bcfe-d640-43f0-af92-c077d67ef3e3">
 
-由于线程T0和T1都只占据一个周期，因此T0和T1所有的关键点(图中用金色标出)都应在各自唯一的周期内，即得出新的动态关键点切片![image-20241117183609412](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241117183609412.png)
+
+由于线程T0和T1都只占据一个周期，因此T0和T1所有的关键点(图中用金色标出)都应在各自唯一的周期内，即得出新的动态关键点切片
+<img width="582" alt="{T0}{T1}执行结果图" src="https://github.com/user-attachments/assets/8df99143-868c-4020-ba76-b9ac61c668a3">
 
 类似的，第二个调度{T1},{T0}的周期执行后如下图
+![(T1){T0}执行结果](https://github.com/user-attachments/assets/ac0a8198-0b55-4d0f-b0c3-7e86fe45b118)
 
-![image-20241117183713588](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241117183713588.png)
 
-如果通过周期执行，发现了一个全新的动态关键点切片，就说明可能还存在其他未被发现的可行调度。因此，为了探索这些未被发现的切片，引入调度前缀的概念，调度前缀的形式为![image-20241117184659644](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241117184659644.png)，比如在上述的s1中，调度前缀就为{T0}。前缀的最后一个周期代表了该周期只能调度来自T0的关键点，同时关键点数量还可以发生变化。
+如果通过周期执行，发现了一个全新的动态关键点切片，就说明可能还存在其他未被发现的可行调度。因此，为了探索这些未被发现的切片，引入调度前缀的概念，调度前缀的形式为![调度前缀](https://github.com/user-attachments/assets/11367a7c-ebc8-41d7-b35a-4ff40f52bd05)
+，比如在上述的s1中，调度前缀就为{T0}。前缀的最后一个周期代表了该周期只能调度来自T0的关键点，同时关键点数量还可以发生变化。
 
 假设周期上限为8，因为两周期的情况已经讨论完，因此拓展到三周期调度进行分析。以s1为例，由于前缀的最后一个周期为T0，因此三周期调度只能为{T0}{T1}{T0}(此处由于周期执行要**线程交错**，因此{T1}之后必须是{T0})，但是在每个周期之内的关键字数量并没有进行限制，因此存在以下几种情况：
+<img width="636" alt="三周期情况" src="https://github.com/user-attachments/assets/cb8a7a70-fa49-4c1c-b676-ed702edf496b">
 
-![image-20241117185659903](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241117185659903.png)![image-20241117185752245](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241117185752245.png)
 
 这时发现，在图(f)中出现了一个全新的关键点切片，将这个新的切片记为s3，前缀为{T0*4}{T1}。
 
 在图(g)中，由于T1将LOCK已经释放并且令LOCK为空了，因此若此时再切换到T0利用LOCK进行上锁保护关键区的话，就会出现空指针解引用的错误，此时就通过前缀延伸的方法找出了一个潜在错误。
 
 之后再关于新切片s3进行讨论
-
-![image-20241117191714250](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241117191714250.png)
+![切片s3](https://github.com/user-attachments/assets/c6febec4-887c-40b5-98a3-5f8eac6c265b)
 
 由于三周期调度为{T0*4}{T1}{...}，其中由于线程的交错执行，相邻周期不能是相同的线程，因此三周期已经讨论结束，接下来关于四周期进行讨论，由于前面部分固定为{T0}{T1}{T0},因此四周期的形式必为{T0}{T1}{T0}{T1}，此时范例如上图所示，在s3的基础上，又出现了全新的关键点切片s4，并且前缀为{T0×4}{T1}{T0}，然后再根据s3的形式以此类推：
+![切片s4](https://github.com/user-attachments/assets/535fbeb7-ee58-4c63-b9a5-e0496cefd2af)
 
-![image-20241117192501837](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241117192501837.png)
-
-可以看出左边是使用已释放内存的错误，右边是双重释放的错误，此时已将所有的潜在错误全部找出，这就证明了Period技术的有效性与可行性。通常在使用Period时会设置一个周期上限，避免无休止地增加周期数来测试错误。![image-20241122110018078](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241122110018078.png)
+可以看出左边是使用已释放内存的错误，右边是双重释放的错误，此时已将所有的潜在错误全部找出，这就证明了Period技术的有效性与可行性。通常在使用Period时会设置一个周期上限，避免无休止地增加周期数来测试错误。![动态关键点切片s1](https://github.com/user-attachments/assets/ddb7d47e-7106-47d9-9c7c-0cdcc2cb1c90)
 
 我们将动态关键点切片简称为DKPS，由上可以得知，DKPS[i]即为第i+1个线程执行时遇到的关键字列表。
 
 由于Period将并发程序建模为周期执行，为了保证线程交错执行，令相邻周期不能相同。因此，每个周期的变换都可以看作是一次上下文切换。又因为并发错误的深度为上下文切换的次数，因此并发错误的深度即为周期数-1。又因为大部分并发错误的深度较浅，所以周期数也不会太高，因此设置一个周期数上限，来保证Period的高效性。
+![PERIOD算法解释](https://github.com/user-attachments/assets/788eb839-2d9c-4cfd-a064-861e7eba5333)
 
-![image-20241118164244995](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241118164244995.png)
 
-![image-20241118164258083](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241118164258083.png)
+![PERIOD源码](https://github.com/user-attachments/assets/b7f4d7ea-629d-4a41-bf9e-0f381a094f7e)
 
-![image-20241118164838146](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241118164838146.png)
+
+![Period规则1](https://github.com/user-attachments/assets/4be71850-9d12-483d-99b0-79ff088c7c77)
 
 根据上述的规则1，假如有五个线程，{T1},{T2},{T3},{T4},{T5}
 
 假设现在有一个深度为2的并发错误，触发的调度顺序为{T1}{T2}{T5}，那么根据上述的调度策略，最坏情况下的周期数为5，即{T1},{T2},{T3},{T4},{T5}，由此可见，虽然这个并发错误的深度为2，但是在最坏情况下，需要执行的周期数为5.
 
-由此可见，如果在周期执行时还是按照串行调度的话，在极端情况下会导致周期数异常增多。因此，就在此引入了并行调度器，即将上述的调度变为{T1}{T2}{T3,T4,T5}，这样探测到深度为2的并发错误所需的周期数就为3，执行完T1,T2之后，会在最后一个周期将其他的全部并行执行一次。但是这样就违背了上述的规则1，最后一个周期包含了来自多个线程的关键点。因此在这里将规则1进行修改，变为：![image-20241118183917964](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241118183917964.png)
+由此可见，如果在周期执行时还是按照串行调度的话，在极端情况下会导致周期数异常增多。因此，就在此引入了并行调度器，即将上述的调度变为{T1}{T2}{T3,T4,T5}，这样探测到深度为2的并发错误所需的周期数就为3，执行完T1,T2之后，会在最后一个周期将其他的全部并行执行一次。但是这样就违背了上述的规则1，最后一个周期包含了来自多个线程的关键点。因此在这里将规则1进行修改，变为：
+![PERIOD规则更改之后](https://github.com/user-attachments/assets/2ebbb075-1a4c-4279-9190-1dde59f5b932)
+
 
 注意，为了保持有序，最后一个周期内线程还是按顺序书写。
 
@@ -134,13 +138,11 @@
 
 周期执行器会收集两个信息，一个是错误信息，即是否触发了错误，第二个是生成的切片，为了更加全面地探索并发错误，要记录下所有生成的切片,并将切片反馈给分析器，由分析器决定是否需要创建新的调度任务。
 
-![image-20241118200049600](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241118200049600.png)
+<img width="255" alt="前缀新生成的调度" src="https://github.com/user-attachments/assets/250ab913-8306-4ab9-986b-fb135b1bc44b">
 
-![image-20241118200108781](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241118200108781.png)
 
-此处可看出是第五个关键点首先出现了差异，e中是T0，但f中是T1，因此保留前面，再与{T1}进行拼接，即为![image-20241118200253545](/images/2024-11-22/step.png)
+此处可看出是第五个关键点首先出现了差异，e中是T0，但f中是T1，因此保留前面，再与{T1}进行拼接，即为![新前缀](https://github.com/user-attachments/assets/f69d283f-cba4-491d-a070-8ae41d6565cd)
 
-![image-20241118200049600](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241118200049600.png)
 
 前缀是为了系统地生成调度，将生成的调度引导向未探索的空间。
 
