@@ -1,6 +1,6 @@
 ​									*Greybox Fuzzing for Concurrency Testing*
 
-![image-20241208181823967](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241208181823967.png)
+[![image-20241208181823967](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241208181823967.png)](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/%E4%B9%90%E8%A7%82%E4%B8%8E%E6%82%B2%E8%A7%82%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95.png)
 
 
 
