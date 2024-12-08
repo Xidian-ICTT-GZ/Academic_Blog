@@ -15,7 +15,7 @@
 
 **调度空间划分**：调度空间被划分成多个区域，每个区域对应于特定的“reads-from”关系。调度器优先探索这些分区，以便找到可能导致并发错误的交错。
 
-![image-20241207101324126](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207101324126.png)![image-20241207104633444](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207104633444.png)
+![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/GreyBox%E7%AE%97%E6%B3%95.png)
 
 抽象调度由于是部分描述，因此通常可以找到可行的实现。此外，与具体调度相比，抽象调度可以减少存储和搜索空间的开销。
 
@@ -25,23 +25,17 @@
 
 
 
-![image-20241207105603317](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207105603317.png)
-
-
-
-![image-20241207105620863](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207105620863.png)
+![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/%E6%AD%A3%E5%90%91%E4%B8%8E%E8%B4%9F%E5%90%91%E7%BA%A6%E6%9D%9F.png)
 
 POS算法即给每个事件分配了一个随机分数，并选择最高分的事件来作为下一个执行事件，并重置该事件及竞争事件的分数。因此当调度器无法明确做出调度决定的时候，就会采用POS算法来进行选择。
 
 RFF只存储抽象调度，因为存储具体调度会导致存储开销过大。抽象调度只对执行的部分进行描述，通常可以通过调度器找到可行的实现。具体调度空间比抽象调度空间大得多，抽象调度可以更有效地避免冗余搜索。
 
-![image-20241207101324126](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207101324126.png)
 
 再利用用户模式调度器来执行插桩之后的程序，尝试偏向满足新的抽象调度的约束。执行结束之后再记录实际线程交错的具体调度，分析是否存在有趣行为，若有，则将此次执行的变异后的调度存入调度合集中。
 
-![image-20241207153325277](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207153325277.png)
+![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/%E8%B0%83%E5%BA%A6%E6%8E%A7%E5%88%B6%E4%B8%8Eevent_on%E6%8E%A7%E5%88%B6%E5%87%BD%E6%95%B0.png)
 
-![image-20241207153345115](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207153345115.png)
 
 我们的评估主要目标是回答以下四个研究问题：
 
@@ -52,8 +46,8 @@ RFF只存储抽象调度，因为存储具体调度会导致存储开销过大�
 
 
 
-![image-20241207163222880](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207163222880.png)
+![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/Total%20Bugs%20Discovered%20After%20Log%20Across%20All%20Trials(Higer%20is%20better).png)
 
-![image-20241207163500643](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207163500643.png)
+![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/Log-scale%20frequency%20of%20reads-from%20sequences%20observed%20by%20POS(top)%20and%20RFF(bottom)%20in%2010000%20executions.png)
 
-![image-20241207171232201](C:\Users\16695\AppData\Roaming\Typora\typora-user-images\image-20241207171232201.png)
+![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/Mean%20Number%20of%20Schedules%20to%201st%20Bug.png)
