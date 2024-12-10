@@ -89,6 +89,7 @@
 ### 五、最新前沿论文分享
 
 #### 每周文献阅读：
+- [2024-12-10-ASPLOS24-GiantSan Efficient Memory Sanitization with Segment Folding](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-10-ASPLOS24-GiantSan%20Efficient%20Memory%20Sanitization%20with%20Segment%20Folding.md)
 - [2024-12-08-ASPLOS24-Greybox Fuzzing for Concurrency Testing](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-08-ASPLOS24-Greybox%20Fuzzing%20for%20Concurrency%20Testing.md)
 - [2024-12-05-POPL19-Incorrectness Logic](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-05-POPL19-Incorrectness%20Logic.pdf)
 - [2024-11-22-ICSE22-Controlled Concurrency Testing via Periodical Scheduling](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-11-22-ICSE22-Controlled%20Concurrency%20Testing%20via%20Periodical%20Scheduling.md)
