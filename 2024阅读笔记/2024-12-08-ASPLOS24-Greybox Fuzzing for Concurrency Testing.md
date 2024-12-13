@@ -1,4 +1,18 @@
-​									*Greybox Fuzzing for Concurrency Testing*
+# Greybox Fuzzing for Concurrency Testing
+
+>作者：Dylan Wolff, Zheng Shi, Gregory J. Duck, Umang Mathur, Abhik Roychoudhury
+>
+>单位：National University of Singapore
+>
+>会议：ASPLOS 2024
+>
+>论文链接： [Greybox Fuzzing for Concurrency Testing](https://abhikrc.com/pdf/ASPLOS24.pdf)
+
+|Recorder|Date|Categories|
+|----|----|----|
+|黄俊杰|2024-12-08|Testing, Concurrency Program|
+
+-----
 
 ![image](https://github.com/Xidian-ICTT-GZ/Academic_Blog/blob/main/images/2024-12-8/%E4%B9%90%E8%A7%82%E4%B8%8E%E6%82%B2%E8%A7%82%E5%B9%B6%E5%8F%91%E6%B5%8B%E8%AF%95.png)
 
