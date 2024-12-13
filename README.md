@@ -9,6 +9,7 @@
 - 程序设计语言：[POPL](https://conf.researchr.org/home/POPL-2025)、[PLDI](https://conf.researchr.org/home/PLDI-2025)、[OOPSLA](https://2025.splashcon.org/track/OOPSLA)
 - 计算机理论与形式化方法：[CAV](https://conferences.i-cav.org/2025/)、[FM](https://www.fm24.polimi.it/)
 - 计算机安全：[S&P](https://sp2025.ieee-security.org/)、[CCS](https://www.sigsac.org/ccs/CCS2025/)、[Usenix Security](https://www.usenix.org/conference/usenixsecurity25)、[NDSS](https://www.ndss-symposium.org/ndss2025/)
+- 人工智能与自然语言处理：...
 
 
 ### 二、程序测试验证基本概念
