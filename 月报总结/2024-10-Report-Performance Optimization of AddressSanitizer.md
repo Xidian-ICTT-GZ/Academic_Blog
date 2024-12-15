@@ -395,6 +395,18 @@ SAND的核心思想是将 Fuzzing 和 Sanitizer 解耦，仅对 Fuzzing 过程�
 - 进一步，应当研究和提出其它创新性的方法来改进ASan的性能开销。
 
 
+## Appendix
+
+- [论文分享 | AddressSanitizer: 一个快速的内存地址错误检查器](https://zhuanlan.zhihu.com/p/697195679)
+- [AddressSanitizer算法及源码解析](https://blog.csdn.net/juS3Ve/article/details/80879159)
+- [ASAN Pass【源码分析】（一）——简单分析](https://blog.csdn.net/clh14281055/article/details/119276042)
+- [ASAN Pass【源码分析】（二）——调试环境准备](https://blog.csdn.net/clh14281055/category_11176781.html?spm=1001.2014.3001.5482)
+- [ASAN Pass【源码分析】（三）——初始化](https://blog.csdn.net/clh14281055/article/details/119465513)
+- [ASAN Pass【源码分析】（四）——运行](https://blog.csdn.net/clh14281055/article/details/119514551)
+- [ASAN Pass【源码分析】（五）——插桩](https://blog.csdn.net/clh14281055/article/details/119523477)
+- [ASAN Pass【源码分析】（六）——全局变量插桩](https://blog.csdn.net/clh14281055/article/details/122896319)
+
+
 ## 参考文献
 
 [1]Serebryany K, Bruening D, Potapenko A, et al. AddressSanitizer: A fast address sanity checker[C]//2012 USENIX annual technical conference (USENIX ATC 12). 2012: 309-318.
