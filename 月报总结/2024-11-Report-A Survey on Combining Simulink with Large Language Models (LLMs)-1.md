@@ -1,8 +1,8 @@
-# Simulink结合大语言模型（LLMs）的相关研究工作调研
+# Simulink结合大语言模型（LLMs）的相关研究工作调研（上）
 
 |Recorder|Date|Categories|
 |----|----|----|
-|Tang YeXin，Su ZheXin，Li ChunYi|2024-10-30|Formal Modeling|
+|Tang YeXin，Su ZheXin，Li ChunYi|2024-11-30|Modeling Checking|
 
 -----
 

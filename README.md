@@ -82,9 +82,9 @@
 
 ### 四、每月简报
 
-- [2024年12月简报：Simulink相关前沿研究进展]()
-- [2024年11月简报：Simulink结合大语言模型（LLMs）的相关研究洞察](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-10-Report-A%20Survey%20on%20Combining%20Simulink%20with%20Large%20Language%20Models%20(LLMs).md)
-- [2024年10月简报：面向C/C++程序的地址消毒器性能优化洞察分析与实证研究报告](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-11-Report-Performance%20Optimization%20of%20AddressSanitizer.md)
+- [2024年12月简报：Simulink结合大语言模型（LLMs）的相关研究工作调研（下）](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-12-Report-A%20Survey%20on%20Combining%20Simulink%20with%20Large%20Language%20Models%20(LLMs)-2.md)
+- [2024年11月简报：Simulink结合大语言模型（LLMs）的相关研究工作调研（上）](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-11-Report-A%20Survey%20on%20Combining%20Simulink%20with%20Large%20Language%20Models%20(LLMs)-1.md)
+- [2024年10月简报：面向C/C++程序的地址消毒器性能优化洞察分析与实证研究报告](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-10-Report-Performance%20Optimization%20of%20AddressSanitizer.md)
 
 
 ### 五、最新前沿论文分享
