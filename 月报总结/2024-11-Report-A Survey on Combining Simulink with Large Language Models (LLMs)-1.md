@@ -2,7 +2,7 @@
 
 |Recorder|Date|Categories|
 |----|----|----|
-|Tang YeXin，Su ZheXin，Li ChunYi|2024-11-30|Modeling Checking|
+|Tang YeXin，Su ZheXin，Li ChunYi|2024-11-30|Formal Modeling |
 
 -----
 
