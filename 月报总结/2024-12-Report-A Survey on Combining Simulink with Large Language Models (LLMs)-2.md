@@ -2,7 +2,7 @@
 
 |Recorder|Date|Categories|
 |----|----|----|
-|Ma Zhi, Li Chunyi, Su Zhexin, Yu Bin, Liu Yanzhen, Fan Zhihao|2024-12-30|Formal Modeling|
+|Li Chunyi, Su Zhexin, Tang Yuye, Ma Zhi, Yu Bin, Liu Yanzhen, Fan Zhihao|2024-12-30|Formal Modeling|
 
 -----
 
