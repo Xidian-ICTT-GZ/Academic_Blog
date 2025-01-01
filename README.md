@@ -90,6 +90,9 @@
 ### 五、最新前沿论文分享
 
 #### 每周文献阅读：
+
+- [2024-12-22-FM24-Reachability Analysis for Multiloop Programs Using Transition Power Abstraction](https://avm2024.informatik.uni-freiburg.de/assets/presentations/konstantin_britikov.pdf)
+- [2024-12-22-FM24-Sound and Complete Witnesses for Template-Based Verification of LTL Properties on Polynomial Programs](https://link.springer.com/chapter/10.1007/978-3-031-71162-6_31)
 - [2024-12-10-ASPLOS24-GiantSan Efficient Memory Sanitization with Segment Folding](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-10-ASPLOS24-GiantSan%20Efficient%20Memory%20Sanitization%20with%20Segment%20Folding.md)
 - [2024-12-08-ASPLOS24-Greybox Fuzzing for Concurrency Testing](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-08-ASPLOS24-Greybox%20Fuzzing%20for%20Concurrency%20Testing.md)
 - [2024-12-05-POPL19-Incorrectness Logic](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-05-POPL19-Incorrectness%20Logic.pdf)
