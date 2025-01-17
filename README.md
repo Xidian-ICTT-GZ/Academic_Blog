@@ -91,6 +91,16 @@
 
 #### 每周文献阅读：
 
+##### 2025
+
+- [2025-01-17-S&P25-Evaluating the Effectiveness of Memory Safety Sanitizers](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-17-S&P25-Evaluating%20the%20Effectiveness%20of%20Memory%20Safety%20Sanitizers.md)
+- [2025-01-17-ICPP-W 2023-Enhanced Memory Corruption Detection in CC++ Programs](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-17-ICPP-W%202023-Enhanced%20Memory%20Corruption%20Detection%20in%20CC++%20Programs.pdf)
+- [2025-01-03-ASE24-LLM Meets Bounded Model Checking Neuro-symbolic Loop Invariant Inference](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-03-ASE24-LLM%20Meets%20Bounded%20Model%20Checking%20Neuro-symbolic%20Loop%20Invariant%20Inference.pdf)
+- [2025-01-03-NeurIPS24-Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-03-NeurIPS24-Scaling%20LLM%20Test-Time%20Compute%20Optimally%20can%20be%20More%20Effective%20than%20Scaling%20Model%20Parameters.pdf)
+- [2025-01-03-FM24-Sound and Complete Witnesses for Template-Based Verification of LTL Properties on Polynomial Programs](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-03-FM24-Sound%20and%20Complete%20Witnesses%20for%20Template-Based%20Verification%20of%20LTL%20Properties%20on%20Polynomial%20Programs.md)
+
+##### 2024
+
 - [2024-12-22-FM24-Reachability Analysis for Multiloop Programs Using Transition Power Abstraction](https://avm2024.informatik.uni-freiburg.de/assets/presentations/konstantin_britikov.pdf)
 - [2024-12-22-FM24-Sound and Complete Witnesses for Template-Based Verification of LTL Properties on Polynomial Programs](https://link.springer.com/chapter/10.1007/978-3-031-71162-6_31)
 - [2024-12-10-ASPLOS24-GiantSan Efficient Memory Sanitization with Segment Folding](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-10-ASPLOS24-GiantSan%20Efficient%20Memory%20Sanitization%20with%20Segment%20Folding.md)
