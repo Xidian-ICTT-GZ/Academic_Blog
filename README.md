@@ -89,8 +89,6 @@
 
 ### 五、最新前沿论文分享
 
-#### 每周文献阅读：
-
 ##### 2025
 
 - [2025-01-17-S&P25-Evaluating the Effectiveness of Memory Safety Sanitizers](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-17-S&P25-Evaluating%20the%20Effectiveness%20of%20Memory%20Safety%20Sanitizers.md)
@@ -116,16 +114,7 @@
 - [2024-05-19-ICSE24-RPG Rust Library Fuzzing with Pool-based Fuzz Target Generation and Generic Support](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-05-19-ICSE24-RPG%20Rust%20Library%20Fuzzing%20with%20Pool-based%20Fuzz%20Target%20Generation%20and%20Generic%20Support.md)
 - [2021-01-22-CCS20-RTFM_Automatic Assumption Discovery and Verification Derivation from Library Document for API Misuse Detection](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2021-01-22-CCS20-RTFM_Automatic%20Assumption%20Discovery%20and%20Verification%20Derivation%20from%20Library%20Document%20for%20API%20Misuse%20Detection.md)
 
-#### FM‘24相关文章：
-- “A Pyramid Of (Formal) Software Verification”综述了形式化验证的层次结构与挑战。
-- “Accelerated Bounded Model Checking”提出了加速模型检查的新算法，提高了验证效率。
-- “Accurate Static Data Race Detection for C”介绍了针对C语言的高效静态数据竞争检测方法。
-- “Reachability Analysis for Multiloop Programs Using Transition Power Abstraction”提出了多循环程序可达性分析的新方法。
 
-#### CAV‘24相关文章：
-- “Verification Algorithms for Automated Separation Logic Verifiers”研究了自动化分离逻辑验证器的算法。
-- “Framework for Debugging Automated Program Verification Proofs via Proof Actions”构建了一个调试自动化验证证明的框架。
-- “Interactive Theorem Proving modulo Fuzzing”结合了交互式定理证明与模糊测试，提升了验证的实用性和效率。
 
 ### 五、结语
 
