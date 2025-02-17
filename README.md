@@ -5,12 +5,12 @@
 在快速发展的软件工程和形式化方法领域，确保软件系统的可信性一直都是不可忽视的关键问题。本简报旨在提供一个较为全面的软件测试验证方法概览，并洞悉当前国际上的最新研究动态。在此，我们汇聚课题组师生之智，共同细品国际顶级会议论文的字里行间，在思维的碰撞中激发新的火花，让灵感在交流与思辨中璀璨绽放。
 
 我们重点关注以下会议的最新研究工作：
+
 - 软件工程：[ICSE](https://conf.researchr.org/home/icse-2025)、[FSE](https://conf.researchr.org/home/ase-2025)、[ASE](https://conf.researchr.org/home/ase-2025)、[ISSTA](https://conf.researchr.org/home/issta-2025)
 - 程序设计语言：[POPL](https://conf.researchr.org/home/POPL-2025)、[PLDI](https://conf.researchr.org/home/PLDI-2025)、[OOPSLA](https://2025.splashcon.org/track/OOPSLA)
 - 计算机理论与形式化方法：[CAV](https://conferences.i-cav.org/2025/)、[FM](https://www.fm24.polimi.it/)
-- 计算机安全：[S&P](https://sp2025.ieee-security.org/)、[CCS](https://www.sigsac.org/ccs/CCS2025/)、[Usenix Security](https://www.usenix.org/conference/usenixsecurity25)、[NDSS](https://www.ndss-symposium.org/ndss2025/)
+- 计算机安全：[S&amp;P](https://sp2025.ieee-security.org/)、[CCS](https://www.sigsac.org/ccs/CCS2025/)、[Usenix Security](https://www.usenix.org/conference/usenixsecurity25)、[NDSS](https://www.ndss-symposium.org/ndss2025/)
 - 人工智能与自然语言处理：...
-
 
 ### 二、程序测试验证基本概念
 
@@ -28,10 +28,10 @@
 
 为了直观地理解这一挑战，我们可以将验证方法的特性构想为一个三棱金字塔模型（从顶部俯瞰），如下图所示。金字塔的三个底边分别代表了自动性（Automatic）、无遗漏错误（No Missed Bugs，即完全正确性）和无误报（No False Alarms,即精确性）这三个核心属性。金字塔的顶点，则是我们梦寐以求的理想验证系统，它集自动性、完全正确性和精确性于一身。
 
-
 ![Alt](/images/top/pyramid.png#pic_center)
 
 金字塔的底面，则分布着三种不同的策略，它们分别对应着三个属性的极端表现：
+
 - 上近似（Over-approximation）：这种方法倾向于保守地估计程序的行为，可能会误报一些实际上符合规范的情况，以确保不遗漏任何潜在的错误。它牺牲了精确性以换取完全正确性。
 - 下近似（Under-approximation）：与上近似相反，下近似方法更加谨慎地确认程序的正确性，只报告那些确实违反规范的情况，从而避免了误报。然而，这种谨慎可能导致一些错误被遗漏，因此它牺牲了完全正确性以换取精确性。
 - 人工辅助（Human-assisted）：这种方法结合了人的智慧和机器的自动化能力，通过人工参与来弥补自动化工具的不足。虽然这种方法可能增加了验证过程的复杂性和时间成本，但它能够在一定程度上平衡自动性、完全正确性和精确性之间的冲突。
@@ -46,17 +46,17 @@
 
 ![Alt](/images/top/six_school.png#pic_center)
 
-- **静态分析（Static Analysis）：** 
+- **静态分析（Static Analysis）：**
   - 特点：静态分析是一种在不执行程序的情况下，通过检查程序代码来发现潜在错误、安全漏洞和性能问题的方法。
   - 验证对象：用于各种类型的程序，特别是那些对安全性和可靠性要求较高的软件。静态分析能够识别出代码中的语法错误、类型不匹配、未初始化的变量使用、内存泄漏等常见问题。
   - 技术要点：包括语法分析、语义分析、数据流分析、控制流分析等，以及相应的数学形式化方法来表达分析结果。
   - 工具示例：常见的静态分析工具包括Clang Static Analyzer、Cppcheck、FindBugs等。
-- **抽象解释（Abstract Interpretation）：** 
+- **抽象解释（Abstract Interpretation）：**
   - 特点：抽象解释是一种基于格理论的程序分析方法，它通过构建程序的抽象模型来近似地表示程序的行为，并在此基础上进行分析和验证。这种方法允许开发者在保持程序关键性质的同时，忽略掉不重要的细节，从而简化分析过程。
   - 验证对象：适用于需要精确控制流和数据流信息的程序分析任务。
   - 技术要点：涉及抽象域的选择、抽象操作的定义、格结构的构建等关键技术。
-  - 工具示例：抽象解释通常与其他分析技术结合使用，如与静态分析或模型检查相结合。  
-- **测试和符号执行（Testing and Symbolic Execution）：** 
+  - 工具示例：抽象解释通常与其他分析技术结合使用，如与静态分析或模型检查相结合。
+- **测试和符号执行（Testing and Symbolic Execution）：**
   - 特点：测试是验证程序功能正确性的直接方法，它通过实际执行程序并观察输出结果来发现错误。而符号执行则是一种自动化的测试技术，它使用符号表示程序的输入和状态，通过模拟程序执行来探索所有可能的执行路径。
   - 验证对象：广泛适用于各种类型的程序，特别是那些难以通过形式化方法验证的复杂系统。
   - 技术要点：包括测试用例的设计、执行和评估，以及符号执行的路径探索、约束求解等。
@@ -66,12 +66,12 @@
   - 验证对象：这种方法特别适用于具有有限状态空间的程序，如硬件电路、通信协议等。模型检查能够发现程序中的逻辑错误、死锁、活锁等问题。
   - 技术要点：包括状态空间的表示、遍历算法的选择、性质的定义和检查等。
   - 工具示例：SPIN、NuSMV、CBMC等是知名的模型检查工具。
-- **演绎验证（Deductive Verification）：** 
+- **演绎验证（Deductive Verification）：**
   - 特点：演绎验证是一种基于数学逻辑和定理证明的验证方法。它从程序的规范出发，通过逻辑推导来证明程序满足特定的性质或要求。
   - 验证对象：适用于那些可以精确描述其规范和性质的程序，如安全关键系统。
   - 技术要点：包括逻辑系统的选择、定理证明的策略、证明自动化等。演绎验证能够提供严格的数学保证，是验证安全关键系统和高可靠性软件的首选方法。然而，由于它需要高度的数学技能和复杂的证明过程，因此在实际应用中具有一定的挑战性。
   - 工具示例：Frama-C、Dafny等是常用的演绎验证工具。
-- **功能验证（Functional Verification）：** 
+- **功能验证（Functional Verification）：**
   - 特点：功能验证主要关注程序的功能正确性，即程序是否按照预期的方式执行并产生正确的结果。
   - 验证对象：广泛适用于各种类型的程序，特别是那些对功能正确性要求较高的软件。
   - 技术要点：包括功能测试、等价性检查、模拟与仿真等。
@@ -79,19 +79,18 @@
 
 这六大类方法各有优劣，适用于不同的验证场景和需求。在实际应用中，开发者通常会根据项目的具体情况和目标来选择合适的方法或组合多种方法进行综合验证。同时，随着技术的不断进步和研究的深入，新的验证方法和技术也在不断涌现，为软件验证领域带来了更多的可能性和挑战。
 
-
 ### 四、每月简报
 
+- [2025年1月简报：深度神经网络验证与测试的相关研究工作调研](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2025-01-Report-A%20Survey%20on%20Verification%20and%20Testing%20of%20Deep%20Neural%20Networks%20(DNNs).md)
 - [2024年12月简报：Simulink结合大语言模型（LLMs）的相关研究工作调研（下）](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-12-Report-A%20Survey%20on%20Combining%20Simulink%20with%20Large%20Language%20Models%20(LLMs)-2.md)
 - [2024年11月简报：Simulink结合大语言模型（LLMs）的相关研究工作调研（上）](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-11-Report-A%20Survey%20on%20Combining%20Simulink%20with%20Large%20Language%20Models%20(LLMs)-1.md)
 - [2024年10月简报：面向C/C++程序的地址消毒器性能优化洞察分析与实证研究报告](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-10-Report-Performance%20Optimization%20of%20AddressSanitizer.md)
-
 
 ### 五、最新前沿论文分享
 
 ##### 2025
 
-- [2025-01-17-S&P25-Evaluating the Effectiveness of Memory Safety Sanitizers](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-17-S&P25-Evaluating%20the%20Effectiveness%20of%20Memory%20Safety%20Sanitizers.md)
+- [2025-01-17-S&amp;P25-Evaluating the Effectiveness of Memory Safety Sanitizers](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-17-S&P25-Evaluating%20the%20Effectiveness%20of%20Memory%20Safety%20Sanitizers.md)
 - [2025-01-17-ICPP-W 2023-Enhanced Memory Corruption Detection in CC++ Programs](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-17-ICPP-W%202023-Enhanced%20Memory%20Corruption%20Detection%20in%20CC++%20Programs.pdf)
 - [2025-01-03-ASE24-LLM Meets Bounded Model Checking Neuro-symbolic Loop Invariant Inference](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-03-ASE24-LLM%20Meets%20Bounded%20Model%20Checking%20Neuro-symbolic%20Loop%20Invariant%20Inference.pdf)
 - [2025-01-03-NeurIPS24-Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-03-NeurIPS24-Scaling%20LLM%20Test-Time%20Compute%20Optimally%20can%20be%20More%20Effective%20than%20Scaling%20Model%20Parameters.pdf)
@@ -113,8 +112,6 @@
 - [2024-05-19-TKDD24-LLM4SA Automatically Inspecting Thousands of Static Bug Warnings with Large Language Model](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-05-19-TKDD24-LLM4SA%20Automatically%20Inspecting%20Thousands%20of%20Static%20Bug%20Warnings%20with%20Large%20Language%20Model.md)
 - [2024-05-19-ICSE24-RPG Rust Library Fuzzing with Pool-based Fuzz Target Generation and Generic Support](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-05-19-ICSE24-RPG%20Rust%20Library%20Fuzzing%20with%20Pool-based%20Fuzz%20Target%20Generation%20and%20Generic%20Support.md)
 - [2021-01-22-CCS20-RTFM_Automatic Assumption Discovery and Verification Derivation from Library Document for API Misuse Detection](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2021-01-22-CCS20-RTFM_Automatic%20Assumption%20Discovery%20and%20Verification%20Derivation%20from%20Library%20Document%20for%20API%20Misuse%20Detection.md)
-
-
 
 ### 五、结语
 
