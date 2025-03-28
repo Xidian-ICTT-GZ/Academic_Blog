@@ -80,7 +80,7 @@
 这六大类方法各有优劣，适用于不同的验证场景和需求。在实际应用中，开发者通常会根据项目的具体情况和目标来选择合适的方法或组合多种方法进行综合验证。同时，随着技术的不断进步和研究的深入，新的验证方法和技术也在不断涌现，为软件验证领域带来了更多的可能性和挑战。
 
 ### 四、每月简报
-
+- [2025年3月简报：？？？]()
 - [2025年1月简报：深度神经网络验证与测试的相关研究工作调研](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2025-01-Report-A%20Survey%20on%20Verification%20and%20Testing%20of%20Deep%20Neural%20Networks%20(DNNs).md)
 - [2024年12月简报：Simulink结合大语言模型（LLMs）的相关研究工作调研（下）](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-12-Report-A%20Survey%20on%20Combining%20Simulink%20with%20Large%20Language%20Models%20(LLMs)-2.md)
 - [2024年11月简报：Simulink结合大语言模型（LLMs）的相关研究工作调研（上）](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2024-11-Report-A%20Survey%20on%20Combining%20Simulink%20with%20Large%20Language%20Models%20(LLMs)-1.md)
@@ -89,7 +89,14 @@
 ### 五、最新前沿论文分享
 
 ##### 2025
-
+- [2025-03-20-NeurIPS24-Towards General Loop Invariant Generation: A Benchmark of Programs with Memory Manipulation](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-03-20-program%20verification%20with%20LLM.pdf)
+- [2025-03-20-Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-03-20-program%20verification%20with%20LLM.pdf)
+- [2025-03-20-S&P25-Poster: Enhancing Symbolic Execution with LLMs for Vulnerability Detection](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-03-20-S%26P25-Poster%20Enhancing%20Symbolic%20Execution%20with%20LLMs%20for%20Vulnerability%20Detection.pdf)
+- [2025-03-14-Retrieval-Augmented Generation (RAG): Paradigms, Technologies, and Trends](https://zhuanlan.zhihu.com/p/28884173045)
+- [2025-03-14-Agentic Retrieval-Augmented Generation: A Survey on Agentic RAG](https://blog.csdn.net/DEVELOPERAA/article/details/145302836)
+- [2025-03-07-Goedel-Prover: A Frontier Model for Open-Source Automated Theorem Proving](https://zhuanlan.zhihu.com/p/25278606872)
+- [2025-02-27-DeepSeek-Prover-V1.5: Harnessing Proof Assistant Feedback for Reinforcement Learning and Monte-Carlo Tree Searc](https://deepseek.csdn.net/67d623d56670175f993701ae.html)
+- [2025-02-27-PLDI09-SoftBound: highly compatible and complete spatial memory safety for c](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-02-27-PLDI09-Nagarakatte_SoftBound.pdf)
 - [2025-01-17-S&amp;P25-Evaluating the Effectiveness of Memory Safety Sanitizers](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-17-S&P25-Evaluating%20the%20Effectiveness%20of%20Memory%20Safety%20Sanitizers.md)
 - [2025-01-17-ICPP-W 2023-Enhanced Memory Corruption Detection in CC++ Programs](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-17-ICPP-W%202023-Enhanced%20Memory%20Corruption%20Detection%20in%20CC++%20Programs.pdf)
 - [2025-01-03-ASE24-LLM Meets Bounded Model Checking Neuro-symbolic Loop Invariant Inference](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-03-ASE24-LLM%20Meets%20Bounded%20Model%20Checking%20Neuro-symbolic%20Loop%20Invariant%20Inference.pdf)
