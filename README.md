@@ -80,6 +80,7 @@
 这六大类方法各有优劣，适用于不同的验证场景和需求。在实际应用中，开发者通常会根据项目的具体情况和目标来选择合适的方法或组合多种方法进行综合验证。同时，随着技术的不断进步和研究的深入，新的验证方法和技术也在不断涌现，为软件验证领域带来了更多的可能性和挑战。
 
 ### 四、每月简报
+- [2025年5月简报：大语言模型在形式化数学定理证明方向的调研](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2025-05-Report-A%20Survey%20on%20Formal%20proof%20of%20mathematical%20theorems%20via%20LLM.md)
 - [2025年4月简报：大语言模型在代码生成相关方向的调研（下）](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2025-04-Report-A%20Survey%20on%20Large%20Language%20Model%20in%20the%20directions%20of%20code%20generation%20(2).md)
 - [2025年3月简报：大语言模型在代码生成相关方向的调研（上）](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2025-03-Report-A%20Survey%20on%20Large%20Language%20Model%20in%20the%20directions%20of%20code%20generation%20(1).md)
 - [2025年1月简报：深度神经网络验证与测试的相关研究工作调研](/%E6%9C%88%E6%8A%A5%E6%80%BB%E7%BB%93/2025-01-Report-A%20Survey%20on%20Verification%20and%20Testing%20of%20Deep%20Neural%20Networks%20(DNNs).md)
