@@ -6,11 +6,11 @@
 
 我们重点关注以下会议的最新研究工作：
 
-- 软件工程：[ICSE](https://conf.researchr.org/home/icse-2025)、[FSE](https://conf.researchr.org/home/ase-2025)、[ASE](https://conf.researchr.org/home/ase-2025)、[ISSTA](https://conf.researchr.org/home/issta-2025)
+- 软件工程：[ICSE](https://conf.researchr.org/home/icse-2025)、[FSE](https://conf.researchr.org/home/ase-2025)、[ASE](https://conf.researchr.org/home/ase-2025)、[ISSTA](https://conf.researchr.org/home/issta-2025)、[SOSP](https://sigops.org/s/conferences/sosp/2025/index.html)、[OSDI](https://www.usenix.org/conference/osdi26)
 - 程序设计语言：[POPL](https://conf.researchr.org/home/POPL-2025)、[PLDI](https://conf.researchr.org/home/PLDI-2025)、[OOPSLA](https://2025.splashcon.org/track/OOPSLA)
 - 计算机理论与形式化方法：[CAV](https://conferences.i-cav.org/2025/)、[FM](https://www.fm24.polimi.it/)
 - 计算机安全：[S&amp;P](https://sp2025.ieee-security.org/)、[CCS](https://www.sigsac.org/ccs/CCS2025/)、[Usenix Security](https://www.usenix.org/conference/usenixsecurity25)、[NDSS](https://www.ndss-symposium.org/ndss2025/)
-- 人工智能与自然语言处理：...
+- 人工智能与自然语言处理：[AAAI](https://aaai.org/conference/aaai/aaai-26/)、[IJCAI](https://2025.ijcai.org/)、[NeurIPS](https://neurips.cc/Conferences/2025)、[ICML](https://icml.cc/Conferences/2025)、[ACL](https://2025.aclweb.org/)、[EMNLP](https://2025.emnlp.org/)
 
 ### 二、程序测试验证基本概念
 
