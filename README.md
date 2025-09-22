@@ -91,6 +91,7 @@
 ### 五、最新前沿论文分享
 
 ##### 2025
+- [2025-09-11-OOPSLA25-Laurel: Unblocking Automated Verification with Large Language Models](/2025阅读笔记/2025-09-11-OOPSLA25-Laurel%20Unblocking%20Automated%20Verification%20with%20Large%20Language%20Models.pdf)
 - [2025-09-11-TOSEM-Structured Chain-of-Thought Prompting for Code Generation](/2025阅读笔记/2025-09-11-TOSEM-Structured%20Chain-of-Thought%20Prompting%20for%20Code%20Generation.pdf)
 - [2025-09-04-FSE25-CXXCraffer: An LLM-Based Agent for Automated C/C++ Open Source Software Building](/2025阅读笔记/2025-09-04-FSE25-CXXCraffer%20An%20LLM-Based%20Agent%20for%20Automated%20CC++%20Open%20Source%20Software%20Building.pdf)
 - [2025-09-04-POPL25-Stateless Model Checking Concurrent/Distributed Programs](/2025阅读笔记/2025-09-04-popl25-Stateless%20Model%20Checking%20Concurrent:Distributed%20Programs.pdf)
