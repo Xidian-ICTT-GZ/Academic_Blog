@@ -91,6 +91,8 @@
 ### 五、最新前沿论文分享
 
 ##### 2025
+- [2025-09-04-CXXCraffer: An LLM-Based Agent for Automated C/C++ Open Source Software Building](/2025阅读笔记/2025-09-04-FSE25-CXXCraffer%20An%20LLM-Based%20Agent%20for%20Automated%20CC++%20Open%20Source%20Software%20Building.pdf)
+- [2025-09-04-POPL25-Stateless Model Checking Concurrent/Distributed Programs](/2025阅读笔记/2025-09-04-popl25-Stateless%20Model%20Checking%20Concurrent:Distributed%20Programs.pdf)
 - [2025-03-20-NeurIPS24-Towards General Loop Invariant Generation: A Benchmark of Programs with Memory Manipulation](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-03-20-program%20verification%20with%20LLM.pdf)
 - [2025-03-20-Enhancing Automated Loop Invariant Generation for Complex Programs with Large Language Models](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-03-20-program%20verification%20with%20LLM.pdf)
 - [2025-03-20-S&P25-Poster: Enhancing Symbolic Execution with LLMs for Vulnerability Detection](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-03-20-S%26P25-Poster%20Enhancing%20Symbolic%20Execution%20with%20LLMs%20for%20Vulnerability%20Detection.pdf)
