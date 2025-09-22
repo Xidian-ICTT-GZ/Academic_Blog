@@ -91,6 +91,7 @@
 ### 五、最新前沿论文分享
 
 ##### 2025
+- [2025-09-18-ThreadSanitizer data race detection in practice](/2025阅读笔记/2025-09-18-ThreadSanitizer%20data%20race%20detection%20in%20practice.pdf)
 - [2025-09-18-ReForm — Reducing Human Priors in Scalable Formal Software Verification with RL in LLMs A Preliminary Study on Dafny](/2025阅读笔记/2025-09-18-ReForm%20—%20Reducing%20Human%20Priors%20in%20Scalable%20Formal%20Software%20Verification%20with%20RL%20in%20LLMs%20A%20Preliminary%20Study%20on%20Dafny.pdf)
 - [2025-09-11-usenixsec25-RangeSanitizer: Detecting Memory Errors with Efficient Range Checks](/2025阅读笔记/2025-09-11-usenixsec25-RangeSanitizer%20Detecting%20Memory%20Errors%20with%20Efficient%20Range%20Checks.pdf)
 - [2025-09-11-NeurIPS25-FVEL Interactive Formal Verification Environment with Large Language Models via Theorem Proving](/2025阅读笔记/2025-09-11-NeurIPS25-FVEL%20Interactive%20Formal%20Verification%20Environment%20with%20Large%20Language%20Models%20via%20Theorem%20Proving.pdf)
