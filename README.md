@@ -91,6 +91,7 @@
 ### 五、最新前沿论文分享
 
 ##### 2025
+- [2025-09-11-usenixsec25-RangeSanitizer: Detecting Memory Errors with Efficient Range Checks](/2025阅读笔记/2025-09-11-usenixsec25-RangeSanitizer%20Detecting%20Memory%20Errors%20with%20Efficient%20Range%20Checks.pdf)
 - [2025-09-11-NeurIPS25-FVEL Interactive Formal Verification Environment with Large Language Models via Theorem Proving](/2025阅读笔记/2025-09-11-NeurIPS25-FVEL%20Interactive%20Formal%20Verification%20Environment%20with%20Large%20Language%20Models%20via%20Theorem%20Proving.pdf)
 - [2025-09-11-OOPSLA25-Laurel: Unblocking Automated Verification with Large Language Models](/2025阅读笔记/2025-09-11-OOPSLA25-Laurel%20Unblocking%20Automated%20Verification%20with%20Large%20Language%20Models.pdf)
 - [2025-09-11-TOSEM-Structured Chain-of-Thought Prompting for Code Generation](/2025阅读笔记/2025-09-11-TOSEM-Structured%20Chain-of-Thought%20Prompting%20for%20Code%20Generation.pdf)
