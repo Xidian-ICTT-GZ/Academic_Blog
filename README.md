@@ -91,6 +91,7 @@
 ### 五、最新前沿论文分享
 
 ##### 2025
+- [2025-09-18-ASPLOS20-Effective Concurrency Testing for Distributed Systems](/2025阅读笔记/2025-09-18-ASPLOS20-Effective%20Concurrency%20Testing%20for%20Distributed%20Systems.pdf)
 - [2025-09-18-ThreadSanitizer data race detection in practice](/2025阅读笔记/2025-09-18-ThreadSanitizer%20data%20race%20detection%20in%20practice.pdf)
 - [2025-09-18-ReForm — Reducing Human Priors in Scalable Formal Software Verification with RL in LLMs A Preliminary Study on Dafny](/2025阅读笔记/2025-09-18-ReForm%20—%20Reducing%20Human%20Priors%20in%20Scalable%20Formal%20Software%20Verification%20with%20RL%20in%20LLMs%20A%20Preliminary%20Study%20on%20Dafny.pdf)
 - [2025-09-11-usenixsec25-RangeSanitizer: Detecting Memory Errors with Efficient Range Checks](/2025阅读笔记/2025-09-11-usenixsec25-RangeSanitizer%20Detecting%20Memory%20Errors%20with%20Efficient%20Range%20Checks.pdf)
@@ -114,7 +115,6 @@
 - [2025-01-03-FM24-Sound and Complete Witnesses for Template-Based Verification of LTL Properties on Polynomial Programs](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-01-03-FM24-Sound%20and%20Complete%20Witnesses%20for%20Template-Based%20Verification%20of%20LTL%20Properties%20on%20Polynomial%20Programs.md)
 
 ##### 2024
-
 - [2024-12-22-FM24-Reachability Analysis for Multiloop Programs Using Transition Power Abstraction](https://avm2024.informatik.uni-freiburg.de/assets/presentations/konstantin_britikov.pdf)
 - [2024-12-22-FM24-Sound and Complete Witnesses for Template-Based Verification of LTL Properties on Polynomial Programs](https://link.springer.com/chapter/10.1007/978-3-031-71162-6_31)
 - [2024-12-10-ASPLOS24-GiantSan Efficient Memory Sanitization with Segment Folding](/2024%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2024-12-10-ASPLOS24-GiantSan%20Efficient%20Memory%20Sanitization%20with%20Segment%20Folding.md)
