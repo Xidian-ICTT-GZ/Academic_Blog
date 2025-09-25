@@ -91,7 +91,8 @@
 ### 五、最新前沿论文分享
 
 ##### 2025
-- [2025-09-26-SOSP23-Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor]
+- [2025-09-26-Tamgram: A Frontend for Large-scale Protocol Modeling in Tamarin](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-09-26-Tamgram%20A%20Frontend%20for%20Large-scale%20Protocol%20Modeling%20in%20Tamarin.pdf)
+- [2025-09-26-SOSP23-Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-09-26-SOSP23-Snowcat%20Efficient%20Kernel%20Concurrency%20Testing%20using%20a%20Learned%20Coverage%20Predictor.pdf)
 - [2025-09-18-ASPLOS20-Effective Concurrency Testing for Distributed Systems](/2025阅读笔记/2025-09-18-ASPLOS20-Effective%20Concurrency%20Testing%20for%20Distributed%20Systems.pdf)
 - [2025-09-18-ThreadSanitizer data race detection in practice](/2025阅读笔记/2025-09-18-ThreadSanitizer%20data%20race%20detection%20in%20practice.pdf)
 - [2025-09-18-ReForm — Reducing Human Priors in Scalable Formal Software Verification with RL in LLMs A Preliminary Study on Dafny](/2025阅读笔记/2025-09-18-ReForm%20—%20Reducing%20Human%20Priors%20in%20Scalable%20Formal%20Software%20Verification%20with%20RL%20in%20LLMs%20A%20Preliminary%20Study%20on%20Dafny.pdf)
