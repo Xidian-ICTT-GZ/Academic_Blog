@@ -91,6 +91,7 @@
 ### 五、最新前沿论文分享
 
 ##### 2025
+- [2025-09-26-SLD-Spec Enhancement LLM-assisted Specification Generation for Complex Loop Functions via Program Slicing and Logical Deletion.pdf](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-09-26-SLD-Spec%20Enhancement%20LLM-assisted%20Specification%20Generation%20for%20Complex%20Loop%20Functions%20via%20Program%20Slicing%20and%20Logical%20Deletion.pdf)
 - [2025-09-26-QREI-An Innovative Heuristic to Detect Special States in Concurrent Software Systems](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-09-26-QREI-An%20Innovative%20Heuristic%20to%20Detect%20Special%20States%20in%20Concurrent%20Software%20Systems.pdf)
 - [2025-09-26-Tamgram: A Frontend for Large-scale Protocol Modeling in Tamarin](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-09-26-Tamgram%20A%20Frontend%20for%20Large-scale%20Protocol%20Modeling%20in%20Tamarin.pdf)
 - [2025-09-26-SOSP23-Snowcat: Efficient Kernel Concurrency Testing using a Learned Coverage Predictor](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-09-26-SOSP23-Snowcat%20Efficient%20Kernel%20Concurrency%20Testing%20using%20a%20Learned%20Coverage%20Predictor.pdf)
