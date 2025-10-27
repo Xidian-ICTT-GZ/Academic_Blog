@@ -91,6 +91,8 @@
 ### 五、最新前沿论文分享
 
 ##### 2025
+- [2025-10-23-RAGVerus Repository-Level Program Verifcationwith LLMs using Retrieval Augmented Generation](/2025阅读笔记/2025-10-23-RAGVerus%20Repository-Level%20Program%20Verifcationwith%20LLMs%20using%20Retrieval%20Augmented%20Generation.pdf)
+- [2025-10-23-ICSE26-Practical Object-Level Sanitizer With Aggregated Memory Access and Custom Allocator](/2025阅读笔记/2025-10-23-ICSE26-Practical%20Object-Level%20Sanitizer%20With%20Aggregated%20Memory%20Access%20and%20Custom%20Allocator.pdf)
 - [2025-09-26-SLD-Spec Enhancement LLM-assisted Specification Generation for Complex Loop Functions via Program Slicing and Logical Deletion.pdf](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-09-26-SLD-Spec%20Enhancement%20LLM-assisted%20Specification%20Generation%20for%20Complex%20Loop%20Functions%20via%20Program%20Slicing%20and%20Logical%20Deletion.pdf)
 - [2025-09-26-QREI-An Innovative Heuristic to Detect Special States in Concurrent Software Systems](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-09-26-QREI-An%20Innovative%20Heuristic%20to%20Detect%20Special%20States%20in%20Concurrent%20Software%20Systems.pdf)
 - [2025-09-26-Tamgram: A Frontend for Large-scale Protocol Modeling in Tamarin](/2025%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/2025-09-26-Tamgram%20A%20Frontend%20for%20Large-scale%20Protocol%20Modeling%20in%20Tamarin.pdf)
